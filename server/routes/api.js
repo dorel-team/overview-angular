@@ -12,6 +12,8 @@ router.get('/', (req, res) => {
 
 
 router.get('/proba', (req, res) => {
+      
+      res.status(200);
       res.send('proba');
   })
 
