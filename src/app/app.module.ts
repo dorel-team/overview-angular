@@ -20,6 +20,9 @@ import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
+import { SvgComponent } from './svg/svg.component';
+import { Page404Component } from './page404/page404.component';
+import { DrawPanelComponent } from './draw-panel/draw-panel.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
     LeftSidebarComponent,
     HeaderComponent,
     MainContentComponent,
-    RightSidebarComponent
+    RightSidebarComponent,
+    SvgComponent,
+    Page404Component,
+    DrawPanelComponent
   ],
   imports: [
     BrowserModule,

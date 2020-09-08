@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 
 
@@ -12,9 +12,12 @@ export class SketchComponent implements OnInit
   countries = COUNTRIES;
   constructor() { }
 
+  @Input() param2:any
+
   ngOnInit(): void
   {
   }
+
 }
 
 
